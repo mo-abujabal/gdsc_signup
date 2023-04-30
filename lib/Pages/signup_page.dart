@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gdsc_login/Pages/widgets/custom_password.dart';
+import 'package:gdsc_login/widgets/custom_password.dart';
 
-import 'widgets/custom_text_from_field.dart';
+import '../widgets/custom_text_from_field.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
