@@ -1,11 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:gdsc_login/Pages/signup_page.dart';
-import 'package:gdsc_login/custom_password.dart';
+import 'package:gdsc_login/Pages/widgets/custom_password.dart';
 
-import '../custom_text_from_field.dart';
+import 'widgets/custom_text_from_field.dart';
 
 class LogInPage extends StatefulWidget {
   const LogInPage({super.key});
@@ -68,7 +65,6 @@ class _LogInPageState extends State<LogInPage> {
                           if (formKey.currentState!.validate()) {
                             //
                           } else {
-                            print('error');
                           }
                         },
                         child: const Text(

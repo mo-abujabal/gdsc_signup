@@ -1,11 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:gdsc_login/custom_password.dart';
 
-import 'custom_password.dart';
-import 'custom_password.dart';
 
 class CustomPassword extends StatefulWidget {
   const CustomPassword({
